@@ -1,0 +1,38 @@
+# Build directory
+build/
+
+# Executables
+*.exe
+*.out
+
+# Object files
+*.o
+*.d
+
+# Libraries
+*.a
+*.so
+*.lo
+*.la
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+
+# Editor backup files
+*~
+#*#
+*.swp
+
+# IDE specific files
+.vscode/
+.idea/
+
+# macOS specific files
+.DS_Store
+
+# Custom scripts
+run.sh
+format.sh
