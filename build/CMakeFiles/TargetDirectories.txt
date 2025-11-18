@@ -1,0 +1,3 @@
+/home/morgado/Projects/opengl_base/build/CMakeFiles/opengl_base.dir
+/home/morgado/Projects/opengl_base/build/CMakeFiles/edit_cache.dir
+/home/morgado/Projects/opengl_base/build/CMakeFiles/rebuild_cache.dir
