@@ -92,9 +92,10 @@ opengl_base_EXTERNAL_OBJECTS =
 
 opengl_base: CMakeFiles/opengl_base.dir/src/main.cc.o
 opengl_base: CMakeFiles/opengl_base.dir/build.make
-opengl_base: /usr/lib/x86_64-linux-gnu/libGL.so
 opengl_base: /usr/lib/x86_64-linux-gnu/libGLEW.so
 opengl_base: /usr/local/lib/libglfw.so.3.4
+opengl_base: /usr/lib/x86_64-linux-gnu/libGLX.so
+opengl_base: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 opengl_base: CMakeFiles/opengl_base.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/morgado/Projects/opengl_base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable opengl_base"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opengl_base.dir/link.txt --verbose=$(VERBOSE)
