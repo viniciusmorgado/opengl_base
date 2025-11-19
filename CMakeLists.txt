@@ -11,10 +11,20 @@ set(OpenGL_GL_PREFERENCE GLVND)
 find_package(OpenGL REQUIRED)
 
 # Find GLEW
-find_package(GLEW REQUIRED)
+
 
 # Find GLFW
 find_package(glfw3 REQUIRED)
+
+include(FetchContent)
+
+FetchContent_Declare(
+  glad
+  GIT_REPOSITORY https://github.com/Dav1dde/glad.git
+  GIT_TAG      v0.1.36 # Or a specific commit/version
+)
+
+FetchContent_MakeAvailable(glad)
 
 # Collect all .cc and .h files
 file(GLOB_RECURSE SOURCES "src/*.cc" "src/*.h" "*.cc" "*.h")
@@ -23,7 +33,7 @@ add_executable(opengl_base ${SOURCES})
 
 target_link_libraries(opengl_base
     OpenGL::GL
-    GLEW::GLEW
+    glad
     glfw
 )
 

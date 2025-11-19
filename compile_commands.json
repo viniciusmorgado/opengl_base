@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/morgado/Projects/opengl_base",
+  "command": "/usr/bin/c++  -I/home/morgado/Projects/opengl_base/_deps/glad-build/include -std=gnu++17 -o CMakeFiles/opengl_base.dir/src/main.cc.o -c /home/morgado/Projects/opengl_base/src/main.cc",
+  "file": "/home/morgado/Projects/opengl_base/src/main.cc",
+  "output": "CMakeFiles/opengl_base.dir/src/main.cc.o"
+},
+{
+  "directory": "/home/morgado/Projects/opengl_base/_deps/glad-build",
+  "command": "/usr/bin/cc  -I/home/morgado/Projects/opengl_base/_deps/glad-build/include  -o CMakeFiles/glad.dir/src/glad.c.o -c /home/morgado/Projects/opengl_base/_deps/glad-build/src/glad.c",
+  "file": "/home/morgado/Projects/opengl_base/_deps/glad-build/src/glad.c",
+  "output": "_deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o"
+}
+]
